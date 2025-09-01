@@ -187,7 +187,8 @@ public class CalcApp {
 }
 ```
 ***Codigo Python Calculadora***
-**Codigo Visitor**
+
+**Codigo Visitor en Python**
 ```python
 import math
 from labeldExprVisitor import labeldExprVisitor
@@ -280,7 +281,7 @@ class EvalVisitor(labeldExprVisitor):
             return math.radians(value)
         return value
 ```
-**Codigo Calculadora**
+**Codigo Calculadora en Python**
 ```python
 import sys
 from antlr4 import *

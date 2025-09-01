@@ -2,28 +2,25 @@
 # Calculadora en ANTLR4 en Java y en Python
 Este proyecto implementa una calculadora basada en la gramática **`labeldExpr.g4`** spirada en el capítulo 4 del libro The Definitive ANTLR 4 Reference.
 La aplicación fue extendida para soportar operaciones más complejas y puede ejecutarse tanto en **Java** como en **Python**.
-Características
 
+# Características
 La calculadora permite:
+* Operaciones simples : `+`, `-`, `*`, `/`, `^`
+* Factorial: `n!` 
+* Funciones matemáticas:
+* 
+  * `sin(x)`, `cos(x)`, `tan(x)` (modo grados o radianes)
+  * `sqrt(x)` → raíz cuadrada
+  * `ln(x)` → logaritmo natural
+  * `log(x)` → logaritmo base 10
+* Cambio entre grados y radianes:
 
-Operaciones básicas: +, -, *, /, ^
+  * `deg()` → activa modo grados
+  * `rad()` → activa modo radianes
 
-Factorial: n! (ej: 5! = 120)
+# Ejecucion en Java
 
-Funciones matemáticas:
+***Codigo Java Visitor***
+```java
 
-sin(x), cos(x), tan(x) (conmutables entre grados y radianes)
-
-sqrt(x) → raíz cuadrada
-
-ln(x) → logaritmo natural
-
-log(x) → logaritmo base 10
-
-Cambio de modo angular:
-
-deg() → activa el modo grados
-
-rad() → activa el modo radianes
-
-Estructura del proyecto
+```

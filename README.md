@@ -280,7 +280,7 @@ class EvalVisitor(labeldExprVisitor):
             return math.radians(value)
         return value
 ```
-**Codigo Calcculadora**
+**Codigo Calculadora**
 ```python
 import sys
 from antlr4 import *
